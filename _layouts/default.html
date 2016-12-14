@@ -5,7 +5,31 @@
 
   <body>
 
-    <main class="main" aria-label="Content">
+    <nav>
+      <section>
+        <h1>Trevor Carr</h1>
+        <p>I’m a multidiciplinary designer and front-end developer currently pursuing a BFA at <a>MICA</a> and working as 50% of <a>Default Value</a>.</p>
+      </section>
+      <section>
+        <h2>Links</h2>
+        <ul>
+          {% for item in site.links %}
+            <li><a href="{{item.url}}">{{item.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h2>Work</h2>
+        <ul>
+          {% for project in site.posts %}
+            <img src="{{project.thumb}}"/>
+            <li><a href="{{project.url}}">{{project.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </nav>
+
+    <main>
       {{ content }}
     </main>
 
