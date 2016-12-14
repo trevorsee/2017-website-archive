@@ -38,8 +38,17 @@ exclude:
 - node_modules
 links:
 - url: trevorsee.info
+  title: books & reading
+  out: false
+- url: trevorsee.info
+  title: big list of things
+  out: false
+- url: trevorsee.info
   title: cv
+  out: false
 - url: trevorsee.info
   title: email
+  out: true
 - url: trevorsee.info
   title: twitter
+  out: true

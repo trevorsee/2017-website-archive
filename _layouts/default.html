@@ -3,33 +3,33 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="sans-serif ma2 measure">
 
     <nav>
-      <section>
-        <h1>Trevor Carr</h1>
-        <p>I’m a multidiciplinary designer and front-end developer currently pursuing a BFA at <a>MICA</a> and working as 50% of <a>Default Value</a>.</p>
+      <section class="mb3">
+        <h1 class="f3 ma0">Trevor Carr</h1>
+        <p class="ma0">I’m a multidiciplinary designer and front-end developer currently pursuing a BFA at <a class="link dim out" href="#">MICA</a> and working as 50% of <a class="link dim out" href="#">Default Value</a>.</p>
       </section>
-      <section>
-        <h2>Links</h2>
-        <ul>
+      <section class="mb3">
+        <h2 class="f3 ma0">Links</h2>
+        <ul class="ma0">
           {% for item in site.links %}
-            <li><a href="{{item.url}}">{{item.title}}</a></li>
+            <li><a class="link dim {% if item.out %}out{% endif %}" href="{{item.url}}">{{item.title}}</a></li>
           {% endfor %}
         </ul>
       </section>
-      <section>
-        <h2>Work</h2>
-        <ul>
+      <section class="mb3">
+        <h2 class="f3 ma0">Work</h2>
+        <ul class="ma0">
           {% for project in site.posts %}
-            <img src="{{project.thumb}}"/>
-            <li><a href="{{project.url}}">{{project.title}}</a></li>
+            <img src="{{project.photo}}"/>
+            <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
           {% endfor %}
         </ul>
       </section>
     </nav>
 
-    <main>
+    <main class="shadow">
       {{ content }}
     </main>
 

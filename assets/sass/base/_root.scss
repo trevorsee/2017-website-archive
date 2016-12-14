@@ -1,16 +1,63 @@
-/**
- * Set up a decent box model on the root element
- */
 html {
   box-sizing: border-box;
+  font-size: 20px;
+  line-height: 1.3;
+}
+*, ::before, ::after { box-sizing: inherit; }
+
+
+/***************/
+/* typography */
+/**************/
+.f3 { font-size: 1rem; }
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+.measure { max-width: 22em; }
+
+.link {
+  color: blue;
+  text-shadow: .03em 0 white, -.03em 0 white, 0 .03em white, 0 -.03em white, .06em 0 white, -.06em 0 white, .09em 0 white, -.09em 0 white, .12em 0 white, -.12em 0 white, .15em 0 white, -.15em 0 white;
+  text-decoration: none;
+  background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(blue, blue);
+  background-size: .05em 1px, .05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 0% 95%, 100% 95%, 0% 95%;
+
+  &:before, &:after, *, *:before, *:after {
+    text-shadow: none;
+  }
 }
 
-/**
- * Make all elements from the DOM inherit from the parent box-sizing
- * Since `*` has a specificity of 0, it does not override the `html` value
- * making all elements inheriting from the root box-sizing value
- * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
- */
-*, ::before, ::after {
-  box-sizing: inherit;
-} 
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "—";
+  padding-right: .5rem;
+}
+.out:after {
+  font-size: .8rem;
+  content: '\02197' ;
+}
+
+/***************/
+/*** spacing ***/
+/**************/
+.ma0 { margin: 0rem; }
+.ma2 { margin: 2rem; }
+.mb3 { margin-bottom: 3rem; }
+
+
+/***************/
+/**** hover ****/
+/**************/
+.dim { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.dim:hover, .dim:focus { opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.dim:active { opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
