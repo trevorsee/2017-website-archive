@@ -30,7 +30,7 @@ permalink: pretty
 sass:
   add_charset: true
   sass_dir: assets/sass
-  style: :compressed
+  style: compressed
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -38,3 +38,10 @@ exclude:
 - README.md
 - CNAME
 - node_modules
+links:
+- url: trevorsee.info
+  title: cv
+- url: trevorsee.info
+  title: email
+- url: trevorsee.info
+  title: twitter
