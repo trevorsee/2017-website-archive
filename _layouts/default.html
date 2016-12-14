@@ -29,10 +29,23 @@
       </section>
     </nav>
 
-    <main class="shadow bg-white t-0 r-0 absolute h-100 z-100 pa1 scroll">
+    <main id="resizable" class="shadow bg-white t-0 r-0 absolute h-100 z-100 pa1 scroll mw-70">
       {{ content }}
     </main>
 
   </body>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#resizable" ).resizable({
+      handles: 'w',
+      resize: function() {
+        $(this).css("left", "");
+      }
+    });
+  } );
+  </script>
 
 </html>
