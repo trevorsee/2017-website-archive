@@ -14,7 +14,7 @@
         <h2 class="f3 ma0">Links</h2>
         <ul class="ma0">
           {% for item in site.links %}
-            <li><a class="link dim {% if item.out %}out{% endif %}" href="{{item.url}}">{{item.title}}</a></li>
+            <li class="bullet"><a class="link dim {% if item.out %}out{% endif %}" href="{{item.url}}">{{item.title}}</a></li>
           {% endfor %}
         </ul>
       </section>
@@ -22,30 +22,31 @@
         <h2 class="f3 ma0">Work</h2>
         <ul class="ma0">
           {% for project in site.posts %}
-            <img src="{{project.photo}}"/>
-            <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
+            <div class="flex">
+              <img class="h-2 pr05 mb0125" src="{{project.photo}}"/>
+              <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
+            </div>
           {% endfor %}
         </ul>
       </section>
     </nav>
 
-    <main id="resizable" class="shadow bg-white t-0 r-0 absolute h-100 z-100 pa1 scroll mw-70">
-      {{ content }}
+    <main id="r" class="t-0 l-0 r-0 fixed z-100 h-100 flex pe-none">
+      <div id="r1" class="w-50 pe-none"></div>
+      <div id="r2" class="h-100 scroll bg-white pt1 pr1 pb1 w-50 pe-initial">
+        {{ content }}
+      </div>
     </main>
 
   </body>
 
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="{{ "/assets/js/split.js" | prepend: site.baseurl }}"></script>
   <script>
-  $( function() {
-    $( "#resizable" ).resizable({
-      handles: 'w',
-      resize: function() {
-        $(this).css("left", "");
-      }
-    });
-  } );
+  Split(['#r1', '#r2'], {
+    sizes: [50, 50],
+    gutterSize: 20,
+    minSize: 200
+  });
   </script>
 
 </html>
