@@ -2,7 +2,7 @@
 title: Photography
 date: 2016-12-14 00:00:00 Z
 position: 3
-photo: "/uploads/photo2.jpg"
+photo: "/uploads/3-c50962.jpg"
 ---
 
 ![photo2.jpg](/uploads/photo2.jpg)
