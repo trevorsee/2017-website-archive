@@ -1,7 +1,7 @@
 ---
 title: Photography
 date: 2016-12-14 00:00:00 Z
-photo: "/uploads/concrete2.jpg"
+photo: "/uploads/photo2.jpg"
 ---
 
 ![photo2.jpg](/uploads/photo2.jpg)
