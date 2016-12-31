@@ -3,6 +3,7 @@ title: Sol LeWitt Exhibition Book
 date: 2016-12-14 00:00:00 Z
 position: 0
 photo: "/uploads/4.jpg"
+publish: true
 ---
 
 ![1.jpg](/uploads/1.jpg)
