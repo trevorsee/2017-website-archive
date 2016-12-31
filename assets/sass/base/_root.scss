@@ -16,14 +16,16 @@ img { max-width: 100%; }
 
 .link {
   color: blue;
-  text-shadow: .03em 0 white, -.03em 0 white, 0 .03em white, 0 -.03em white, .06em 0 white, -.06em 0 white, .09em 0 white, -.09em 0 white, .12em 0 white, -.12em 0 white, .15em 0 white, -.15em 0 white;
+  position: relative;
   text-decoration: none;
-  background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(blue, blue);
-  background-size: .05em 1px, .05em 1px, 1px 1px;
-  background-repeat: no-repeat, no-repeat, repeat-x;
-  background-position: 0% 95%, 100% 95%, 0% 95%;
-  &:before, &:after, *, *:before, *:after {
-    text-shadow: none;
+  &:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    border-width: 0 0 1px;
+    border-style: solid;
   }
 }
 
@@ -43,9 +45,14 @@ li {
   padding-right: .5rem;
 }
 
-.out:after {
-  font-size: .8rem;
-  content: '\02197' ;
+.out {
+  &:before {
+    width: calc(100% - .75rem);
+  }
+  &:after {
+    font-size: .75rem;
+    content: '\02197' ;
+  }
 }
 
 
