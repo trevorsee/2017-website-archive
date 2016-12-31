@@ -3,6 +3,7 @@ title: Misc
 date: 2016-12-14 00:00:00 Z
 position: 4
 photo: "/uploads/calvino0.jpg"
+publish: true
 ---
 
 ![calvino0.jpg](/uploads/calvino0.jpg)
