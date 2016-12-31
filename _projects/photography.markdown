@@ -1,7 +1,7 @@
 ---
 title: Photography
 date: 2016-12-14 00:00:00 Z
-position: 1
+position: 0
 photo: "/uploads/photo2.jpg"
 ---
 
