@@ -11,3 +11,4 @@ A list of books, essays, and writings read and to read.
 - [ ] Zinn: A People's History of the United States
 - [ ] Sloan: Mr. Penumbra's 24-Hour Bookstore: A Novel
 - [x] **Burnam: Systems Esthetics**
+- [ ] Bachelard: The Poetics of Space
