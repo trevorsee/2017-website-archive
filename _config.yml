@@ -5,16 +5,19 @@ collections:
   posts:
     title: Posts
     output: true
+  projects:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: projects
   values:
-    layout: post
-    permalink: "/posts/:title/"
+    layout: page
+    permalink: "/:title/"
 - scope:
     path: ''
     type: pages
@@ -39,9 +42,6 @@ exclude:
 links:
 - url: "/booksandreading"
   title: "books & reading"
-  out: false
-- url: "trevorsee.info"
-  title: "big list of things"
   out: false
 - url: "/resume"
   title: "résumé"
