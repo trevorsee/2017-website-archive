@@ -2,10 +2,10 @@
 title: 2017 Portfolio
 timezone: UTC
 collections:
-  posts:
+  projects:
     title: Posts
     output: true
-  projects:
+  posts:
     title: Posts
     output: true
   uploads:
