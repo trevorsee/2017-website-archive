@@ -41,18 +41,18 @@ exclude:
 - node_modules
 links:
 - url: "/booksandreading"
-  title: "books & reading"
+  title: books & reading
   out: false
 - url: "/resume"
-  title: "résumé"
+  title: résumé
   out: false
-- url: "mailto:info@trevorcarr.info"
-  title: "email: info@trevorcarr.info"
+- url: mailto:info@trevorcarr.info
+  title: 'email: info@trevorcarr.info'
   out: true
-- url: "https://twitter.com/trevorsee"
-  title: "twitter: trevorsee"
+- url: https://twitter.com/trevorsee
+  title: 'twitter: trevorsee'
   out: true
-- url: "https://www.instagram.com/_tcarr/"
-  title: "instagram: _tcarr"
+- url: https://www.instagram.com/_tcarr/
+  title: 'instagram: _tcarr'
   out: true
 port: 4001
