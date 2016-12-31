@@ -37,18 +37,22 @@ exclude:
 - CNAME
 - node_modules
 links:
-- url: trevorsee.info
-  title: books & reading
+- url: "/booksandreading"
+  title: "books & reading"
   out: false
-- url: trevorsee.info
-  title: big list of things
+- url: "trevorsee.info"
+  title: "big list of things"
   out: false
-- url: trevorsee.info
-  title: resume
+- url: "/resume"
+  title: "résumé"
   out: false
-- url: trevorsee.info
-  title: email
+- url: "mailto:info@trevorcarr.info"
+  title: "email: info@trevorcarr.info"
   out: true
-- url: trevorsee.info
-  title: twitter
+- url: "https://twitter.com/trevorsee"
+  title: "twitter: trevorsee"
   out: true
+- url: "https://www.instagram.com/_tcarr/"
+  title: "instagram: _tcarr"
+  out: true
+port: 4001

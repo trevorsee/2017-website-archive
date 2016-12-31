@@ -10,8 +10,8 @@ layout: default
 <div class="markdown">
   {{ content | replace: '<li>[ ]',
                         '<li>
-                         <input type="checkbox" disabled>'
-             | replace: '<li>[x]',
+                         <input type="checkbox" disabled>' |
+               replace: '<li>[x]',
                         '<li>
                          <input type="checkbox" value="on" disabled checked>'  }}
 </div>
