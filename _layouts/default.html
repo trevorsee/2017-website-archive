@@ -23,7 +23,7 @@
         <ul class="ma0">
           {% for project in site.projects %}
             <div class="flex">
-              <img class="h-2 pr05 mb0125" src="{{project.photo}}"/>
+              <div class="h-2 w-3 mr05 mb0125 bg-cover" style="background:url({{project.photo}}) no-repeat center center / cover"></div>
               <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
             </div>
           {% endfor %}
