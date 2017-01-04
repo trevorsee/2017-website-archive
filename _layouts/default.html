@@ -23,8 +23,9 @@
         <ul class="ma0">
           {% for project in site.projects | sort:position %}
             {% if project.publish %}
+              {% assign thumb = {{project.photo}} | replace: '/uploads/', '' %}
               <div class="flex items-center">
-                <div class="h-2 w-3 mr05 mb0125 bg-cover" style="background:url({{project.photo}}) no-repeat center center / cover"></div>
+                <img class="h-2 w-3 mr05 mb0125" src="{{site.imgurl}}/c_fill,dpr_1.0,h_40,w_60/{{thumb}}.jpg"  />
                 <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
               </div>
             {% endif %}
