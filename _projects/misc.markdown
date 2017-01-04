@@ -1,13 +1,8 @@
 ---
 title: Misc
-<<<<<<< HEAD
-date: 2016-12-14 05:27:00 Z
-photo: "/uploads/calvino0.jpg"
-=======
 date: 2016-12-14 00:00:00 Z
 position: 4
 photo: "/uploads/trevorcarr-dot-info-misc2.jpg"
->>>>>>> 142188bb6c84f57e70d769368ea98a465ce88dbc
 publish: true
 ---
 ![calvino0.jpg](/uploads/calvino0.jpg)
