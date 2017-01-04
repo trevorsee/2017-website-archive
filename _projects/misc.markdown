@@ -2,7 +2,7 @@
 title: Misc
 date: 2016-12-14 00:00:00 Z
 position: 4
-photo: "/uploads/calvino0.jpg"
+photo: "/uploads/trevorcarr-dot-info-misc2.jpg"
 publish: true
 ---
 
