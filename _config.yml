@@ -56,5 +56,5 @@ links:
   title: 'instagram: _tcarr'
   out: true
 port: 4001
-imgurl: "http://res.cloudinary.com/daiyzvpj5/image/fetch"
-tempurl: "http://trevorcarr.info/2017website/"
+imgurl: http://res.cloudinary.com/daiyzvpj5/image/fetch
+tempurl: http://trevorcarr.info/2017website/
