@@ -110,6 +110,10 @@ li {
 .pe-none { pointer-events: none; }
 .pe-initial { pointer-events: initial; }
 .items-center { align-items: center; }
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /***************/
 /** split.js **/
