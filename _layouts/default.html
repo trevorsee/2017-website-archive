@@ -12,7 +12,7 @@
       </section>
       <section class="mb3">
         <h2 class="f3 ma0">Links</h2>
-        <ul class="ma0">
+        <ul class="ma0 list">
           {% for item in site.links %}
             <li class="bullet"><a class="link dim {% if item.out %}out{% endif %}" href="{{item.url}}">{{item.title}}</a></li>
           {% endfor %}
@@ -20,7 +20,7 @@
       </section>
       <section class="mb3">
         <h2 class="f3 ma0">Work</h2>
-        <ul class="ma0">
+        <ul class="ma0 list">
           {% for project in site.projects %}
             {% if project.publish %}
               {% assign thumb = {{project.photo}} | replace: '/uploads/', '' %}
@@ -53,7 +53,7 @@
   {% if page.url != "/" %}
   <script>
   Split(['#r1', '#r2'], {
-    sizes: [50, 50],
+    sizes: [40, 60],
     gutterSize: 20
   });
   </script>

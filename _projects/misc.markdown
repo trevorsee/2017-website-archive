@@ -19,7 +19,6 @@ publish: true
 ![a](/uploads/trevorcarr-dot-info-misc11.png)
 ![a](/uploads/trevorcarr-dot-info-misc12.jpg)
 ![a](/uploads/trevorcarr-dot-info-misc13.jpg)
-![a](/uploads/trevorcarr-dot-info-misc14.gif)
 ![a](/uploads/trevorcarr-dot-info-misc15.png)
 ![a](/uploads/trevorcarr-dot-info-misc16.png)
 ![a](/uploads/trevorcarr-dot-info-misc17.jpg)

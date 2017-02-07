@@ -3,7 +3,12 @@ layout: default
 ---
 
 <div class="flex justify-between">
-  <h2 class="f3 ma0">{{page.title}}</h2>
+  <div class="flex">
+    <h2 class="f3 ma0">{{page.title}}</h2>
+    {% if {{page.time}} != null %}
+      <div><span class="ma05">—</span> {{page.time}}</div>
+    {% endif %}
+  </div>
   <a class="link" href="/">close</a>
 </div>
 

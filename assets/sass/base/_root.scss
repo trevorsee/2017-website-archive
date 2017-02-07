@@ -13,6 +13,7 @@ img { max-width: 100%; }
 .f3 { font-size: 1rem; }
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .measure { max-width: 22em; }
+.measure-wide { max-width: 30em; }
 
 .link {
   color: blue;
@@ -29,13 +30,13 @@ img { max-width: 100%; }
   }
 }
 
-ul {
+ul.list {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-li {
+.list li {
   padding-left: 1em;
   text-indent: -1em;
 }
@@ -60,6 +61,7 @@ li {
 /*** spacing ***/
 /**************/
 .ma0 { margin: 0rem; }
+.ma05 { margin: 0.5rem; }
 .ma1 { margin: 1rem; }
 .ma2 { margin: 2rem; }
 .mt1 { margin-top: 1rem; }
@@ -70,6 +72,8 @@ li {
 .pt1 { padding-top: 1rem; }
 .pr1 { padding-right: 1rem; }
 .pb1 { padding-bottom: 1rem; }
+.pb2 { padding-bottom: 2rem; }
+.pb3 { padding-bottom: 3rem; }
 
 
 /***************/
@@ -113,6 +117,9 @@ li {
 .center {
     margin-right: auto;
     margin-left: auto;
+}
+.border-box {
+  box-sizing: border-box;
 }
 
 /***************/

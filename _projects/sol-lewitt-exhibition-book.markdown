@@ -2,16 +2,12 @@
 title: Sol LeWitt Exhibition Book
 date: 2016-12-14 00:00:00 Z
 position: 0
-photo: "/uploads/4.jpg"
+photo: "/uploads/trevorcarr-dot-info-lewitt4.jpg"
 publish: true
+time: fall 2015
 ---
 
-![1.jpg](/uploads/1.jpg)
-![1.jpg](/uploads/2.jpg)
-![3.jpg](/uploads/3.jpg)
-![7.jpg](/uploads/4.jpg)
-![4.jpg](/uploads/5.jpg)
-![4.jpg](/uploads/6.jpg)
-![4.jpg](/uploads/7.jpg)
-![4.jpg](/uploads/8.jpg)
-![4.jpg](/uploads/9.jpg)
+![a](/uploads/trevorcarr-dot-info-lewitt2.jpg)
+![a](/uploads/trevorcarr-dot-info-lewitt1.gif)
+![a](/uploads/trevorcarr-dot-info-lewitt3.jpg)
+![a](/uploads/trevorcarr-dot-info-lewitt4.jpg)
