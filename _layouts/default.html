@@ -29,7 +29,7 @@
                      srcset="{{site.imgurl}}/c_fill,dpr_1.0,h_40,w_60/{{site.tempurl}}{{project.photo}} 1.0x,
                              {{site.imgurl}}/c_fill,dpr_2.0,h_40,w_60/{{site.tempurl}}{{project.photo}} 2.0x"
                      src="{{site.imgurl}}/c_fill,dpr_2.0,h_40,w_60/{{site.tempurl}}{{project.photo}}"  />
-                <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
+                <li><a class="link dim" href="{{site.tempurl}}/{{project.url}}">{{project.title}}</a></li>
               </div>
             {% endif %}
           {% endfor %}
