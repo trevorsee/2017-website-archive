@@ -1,17 +1,18 @@
 ---
 title: 'Working Title: System, Context, Process'
 date: 2016-12-14 00:00:00 Z
-position: 2
+position: 3
 photo: "/uploads/trevorcarr-dot-info-workingtitle6.jpg"
 publish: true
-time: fall 2016
+time: Fall 2016
 ---
 
 ![a](/uploads/trevorcarr-dot-info-workingtitle1.jpg)
 
 Organization and branding for MICA Design League's fall exhibition.
+{: .measure-wide }
 
-Focuses on the idea of design systems, patterns, process, and the contexts in which they exist. Often we view design artifacts as independent from the larger context or systems in which they were created (i.e. a logo independent from its full brand system, a polished poster without process) This method of viewing design often does a disservice to both the designer and the viewer because much of the process and design thinking is lost. We are interested in collecting work that is multi-faceted, multi- disciplinary, process-driven, and/or explores a theme or idea in depth.
+Often design artifacts are viewed in isolation away from the larger context or systems in which they were created. *Why* was it was created, *how* decisions were made, *what* are the goals, etc. This method of viewing design does a disservice to both the creator and the viewer where intention and nuance is lost. We were interested in collecting work that is multi-faceted, multi- disciplinary, process-driven, and/or explores a theme or idea in depth.
 {: .measure-wide .pb1 }
 
 ![a](/uploads/trevorcarr-dot-info-workingtitle2.jpg)
@@ -20,3 +21,12 @@ Focuses on the idea of design systems, patterns, process, and the contexts in wh
 ![a](/uploads/trevorcarr-dot-info-workingtitle5.jpg)
 ![a](/uploads/trevorcarr-dot-info-workingtitle6.jpg)
 ![a](/uploads/trevorcarr-dot-info-workingtitle7.jpg)
+
+Thanks to:
+- {: .list} Jen Evans
+- {: .list} McKenzie Schroeder
+- {: .list} Trevor Carr
+- {: .list} Devin Halladay
+- {: .list} Julia Fletcher
+- {: .list} Connor Davenport
+{: .measure-wide .pb1 }
