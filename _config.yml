@@ -55,6 +55,9 @@ links:
 - url: https://www.instagram.com/_tcarr/
   title: 'instagram: _tcarr'
   out: true
+- url: https://github.com/trevorsee
+  title: 'github: trevorsee'
+  out: true
 port: 4001
 imgurl: http://res.cloudinary.com/daiyzvpj5/image/fetch
 tempurl: http://trevorcarr.info/2017website/
