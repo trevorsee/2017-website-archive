@@ -12,12 +12,10 @@ time: Fall 2015
 Printed book as an exhibition of Sol LeWitt's work.
 {: .measure-wide }
 
-Why is design ephemera an afterthought? A shadow of an event, site, or time. Why can't the exhibition catalogue be it's own
-. Rhizomatic browsing, split image and text. footnotes. "physical artifact of website", "hand vs. machine", "the act of archiving, how to archive digital?", "questioning authorship, authorship in design, designer as curator"  Book as an exhibition — rather than created after
-	- context
-	- experience
-	- spacial
-  What does an exhibition (in a book // in a box) afford that a traditional spacial experience does not?. How to provide a structure that isn't linear-time. Something more experiential drawing from physical exhibitions or websites
+Design ephemera is archived as the shadow of an event, place, or time. An exhibition catalogue plays the role of indexing the event, providing additional context, information, writing, etc., and serving as a citation in a student paper. It is often said that when art is reproduced it can't have the same experiential qualities as seeing it is person - but that argument ignores all of the new affordances that reproduced art affords.
+{: .measure-wide }
+
+What if the exhibition catalogue exists on it's own? How can it engage with the qualities of a museum exhibition but also what naturally comes free with the qualities of a book. What does an exhibition (in a book // in a box) afford that a traditional spacial experience does not?. How to provide a structure that isn't linear-time. Something more experiential drawing from physical exhibitions or websites. A networked quality - rhyzomatic browsing.
 {: .measure-wide .pb1 }
 
 ![a](/uploads/trevorcarr-dot-info-lewitt1.gif)
