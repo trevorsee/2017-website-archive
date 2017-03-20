@@ -1,19 +1,30 @@
 ---
 title: 'Roadmap: Public Site'
 date: 2016-12-14 05:31:00 Z
-photo: "/uploads/2016-12-04%2014.51.49-8cca19.jpg"
-publish: false
+photo: "/uploads/trevorcarr-dot-info-roadmappublic1.png"
+publish: true
 time: Summer 2016
 ---
+![a](/uploads/trevorcarr-dot-info-roadmappublic1.png)
 
-Feedback from current customers
+Design and development for a [new public website](https://ppmroadmap.com) for Roadmap, bridging the gap between Roadmap 1.0 and Roadmap 2.0.
+{: .measure-wide }
+
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.
 {: .measure-wide .pb1 }
 
-[old website]
+![a](/uploads/trevorcarr-dot-info-roadmappublic2.png)
 
-[feature 1] quick and easy sign up
-[feature 2] responsive
-[feature 3] show what the app looks like
-[feature 4] bridge the aesthetic gap between 1.0 and 2.0
+**Updated infrastructure allowing easy editing:** The main reason for updating the website was to allow non-technical employees to easily update copy and blog posts. I used this as an opportunity to make improvements across the board to Roadmap’s public face.
+{: .measure-wide }
 
-[new website]
+**Show the app:** Both as a way to intise the viewer in to signing up for a free trial, and also making the list of features easier to scan: showing the app itself and what it does
+{: .measure-wide }
+
+**Quick and easy signups:** The main reason for updating the website was to allow non-technical employees to easily update copy and blog posts. I used this as an opportunity to make improvements across the board to Roadmap’s public face.
+{: .measure-wide }
+
+![a](/uploads/trevorcarr-dot-info-roadmappublic4.png)
+![a](/uploads/trevorcarr-dot-info-roadmappublic3.png)
+
+[https://ppmroadmap.com](https://ppmroadmap.com)
