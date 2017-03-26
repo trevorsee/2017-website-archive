@@ -1,7 +1,7 @@
 ---
 title: 'Working Title: System, Context, Process'
 date: 2016-12-14 00:00:00 Z
-position: 3
+position: 5
 photo: "/uploads/trevorcarr-dot-info-workingtitle6.jpg"
 publish: true
 time: Fall 2016

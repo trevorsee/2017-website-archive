@@ -1,7 +1,7 @@
 ---
 title: Sol LeWitt Exhibition Book
 date: 2016-12-14 00:00:00 Z
-position: 1
+position: 6
 photo: "/uploads/trevorcarr-dot-info-lewitt4.jpg"
 publish: true
 time: Fall 2015
