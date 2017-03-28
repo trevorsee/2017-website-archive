@@ -40,8 +40,8 @@ exclude:
 - CNAME
 - node_modules
 links:
-- url: "/aboutthiswebsite"
-  title: about this website
+- url: "/colophon"
+  title: colophon
   out: false
 - url: "/resume"
   title: résumé

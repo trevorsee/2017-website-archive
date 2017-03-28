@@ -12,7 +12,13 @@ time: Fall 2016
 A declarative tool for generating ideas.
 {: .measure-wide }
 
-How can our tools expand possibilities and make us better, rather than working as a crutch to limit ourselves in to a particular type of design. What are the limitations of authorship? To what degree do you really own anything as original. Collaboration - what is the point, why do we do it, Thinking about tools and making. How can our tools expand possibilities and make us better, rather than working as a crutch to limit ourselves in to a particular type of design. What are the limitations of authorship? To what degree do you really own anything as original. Collaboration - what is the point, why do we do it,
+Often, original or creative ideas are just simple connections between unrelated things. We were interested in how to use the affordances of computers for creative purposes. Maybe machines are better at this than humans.
+{: .measure-wide }
+
+We created a tool that could act as a container for holding bits, ideas, phrases, scraps, and themes over time (saved to LocalStorage) and use that input to generate ideas. Rather than authoring original ideas we can use this tool to seed a list of ideas that can be curated. Not unlike described by Jon Gold as a [declarative design tool](googl.ecomm).
+{: .measure-wide }
+
+— in collaboration with [Default Value](http://defaultvalue.info/).
 {: .measure-wide .pb1 }
 
 ![a](/uploads/trevorcarr-dot-info-wwwwwwork1.png)

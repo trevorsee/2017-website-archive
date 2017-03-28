@@ -9,13 +9,17 @@ time: Fall 2016
 
 ![a](/uploads/trevorcarr-dot-info-author1.jpg)
 
-Exploring machine learning through Calvino's Invisible Cities.
+A publication and installation exploring machine learning through Calvino's Invisible Cities.
 {: .measure-wide }
 
-Design ephemera is archived as the shadow of an event, place, or time. An exhibition catalogue plays the role of indexing the event, providing additional context, information, writing, etc., and serving as a citation in a student paper. It is often said that when art is reproduced it can't have the same experiential qualities as seeing it is person - but that argument ignores all of the new affordances that reproduced art affords.
+For the content of the books I spliced together the story of Leonia, excerpts from Art in the Age of Mechanical Reproduction, and public domain images from the NYPL. It is printed on found-paper left behind at printers and in recycling bins across campus. (Thanks to [Kristian](http://www.ookb.co/) for letting me steal from his collection). This creates a blurred line between what content "belongs" to the book, what is found from the paper, and the collisions between the two. Who can claim authorship over the final product?
 {: .measure-wide }
 
 ![a](/uploads/trevorcarr-dot-info-author2.gif)
+
+Leonia:
+<iframe src="/uploads/trevorcarr-dot-info-leonia.txt" width="50%" height="800px"></iframe>
+
 ![a](/uploads/trevorcarr-dot-info-author3.jpg)
 ![a](/uploads/trevorcarr-dot-info-author6.jpg)
 ![a](/uploads/trevorcarr-dot-info-author7.jpg)
@@ -23,11 +27,14 @@ Design ephemera is archived as the shadow of an event, place, or time. An exhibi
 ![a](/uploads/trevorcarr-dot-info-author9.jpg)
 ![a](/uploads/trevorcarr-dot-info-author10.jpg)
 
-Design ephemera is archived as the shadow of an event, place, or time. An exhibition catalogue plays the role of indexing the event, providing additional context, information, writing, etc., and serving as a citation in a student paper. It is often said that when art is reproduced it can't have the same experiential qualities as seeing it is person - but that argument ignores all of the new affordances that reproduced art affords.
+---
+
+To extend the idea of generated or author-agnostic content, I trained a recurrent neural network on a corpus of Calvino's writing. The output was printed with an Arduino controlled receipt printer as well as displayed as a tiled poster.
 {: .measure-wide }
 
+Output:
 <iframe src="/uploads/trevorcarr-dot-info-authortext.txt" width="50%" height="800px"></iframe>
 
-![a](/uploads/temp5.png)
-![a](/uploads/temp2.png)
-![a](/uploads/temp4.png)
+![a](/uploads/trevorcarr-dot-info-author11.jpg)
+![a](/uploads/trevorcarr-dot-info-author12.jpg)
+![a](/uploads/trevorcarr-dot-info-author13.jpg)

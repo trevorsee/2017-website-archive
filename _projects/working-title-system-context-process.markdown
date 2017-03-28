@@ -13,7 +13,11 @@ Organization and branding for MICA Design League's fall exhibition.
 {: .measure-wide }
 
 Often design artifacts are viewed in isolation away from the larger context or systems in which they were created. *Why* was it was created, *how* decisions were made, *what* are the goals, etc. This method of viewing design does a disservice to both the creator and the viewer where intention and nuance is lost. We were interested in collecting work that is multi-faceted, multi- disciplinary, process-driven, and/or explores a theme or idea in depth.
+{: .measure-wide }
+
+— in collaboration with [Jen Evans](https://jenevans.work//) and [MICA Design League](https://www.instagram.com/mica_designleague).
 {: .measure-wide .pb1 }
+
 
 ![a](/uploads/trevorcarr-dot-info-workingtitle2.jpg)
 ![a](/uploads/trevorcarr-dot-info-workingtitle3.jpg)
@@ -30,3 +34,5 @@ Thanks to:
 - {: .list} Julia Fletcher
 - {: .list} Connor Davenport
 {: .measure-wide .pb1 }
+
+finish list

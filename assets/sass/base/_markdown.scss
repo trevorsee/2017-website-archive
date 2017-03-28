@@ -23,4 +23,9 @@
     padding-right: .5rem;
   }
 
+  a { color: blue; opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+  a:hover, .dim:focus { opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+  a:active { opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
+
+
 }

@@ -25,5 +25,7 @@ time: Ongoing
 ![a](/uploads/trevorcarr-dot-info-misc16.png)
 ![a](/uploads/trevorcarr-dot-info-misc17.jpg)
 ![a](/uploads/trevorcarr-dot-info-misc18.gif)
+![a](/uploads/trevorcarr-dot-info-misc22.png)
+![a](/uploads/trevorcarr-dot-info-misc24.jpg)
 ![a](/uploads/trevorcarr-dot-info-misc20.png)
 ![a](/uploads/trevorcarr-dot-info-misc21.png)

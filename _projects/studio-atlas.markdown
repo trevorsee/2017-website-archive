@@ -9,13 +9,16 @@ time: Spring 2017 
 
 ![a](/uploads/trevorcarr-dot-info-studioatlas1.png)
 
-Printed book as an exhibition of Sol LeWitt's work.
+An index of graphic design studios and how they describe themselves.
 {: .measure-wide }
 
-Design ephemera is archived as the shadow of an event, place, or time. An exhibition catalogue plays the role of indexing the event, providing additional context, information, writing, etc., and serving as a citation in a student paper. It is often said that when art is reproduced it can't have the same experiential qualities as seeing it is person - but that argument ignores all of the new affordances that reproduced art affords.
+We collected data about studios and their descriptions in to a spreadsheet that could be accessed by API through Sheetlabs. That data is piped into a python script that uses [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) and [t-SNE](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) algorithms to sort the studios. Studios that use similar words or write in a similar way are grouped together.
 {: .measure-wide }
 
-What if the exhibition catalogue exists on it's own? How can it engage with the qualities of a museum exhibition but also what naturally comes free with the qualities of a book. What does an exhibition (in a book // in a box) afford that a traditional spacial experience does not?. How to provide a structure that isn't linear-time. Something more experiential drawing from physical exhibitions or websites. A networked quality - rhyzomatic browsing.
+The resulting simple React app plots the studios according to their coordinates creating a field of studio homepages that the user can explore at their own pace. We hope that this encourages a user to find relationships between grouped studios in both aesthetic and linguistic terms.
+{: .measure-wide }
+
+— in collaboration with [Default Value](http://defaultvalue.info/).
 {: .measure-wide .pb1 }
 
 ![a](/uploads/trevorcarr-dot-info-studioatlas3.gif)
