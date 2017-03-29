@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+<html id="html" lang="{{ site.lang | default: page.lang | default: 'en' }}">
 
   {% include head.html %}
 
@@ -8,8 +8,8 @@
     <nav>
       <section class="mb3">
         <h1 class="f3 ma0">Trevor Carr</h1>
-        <p class="ma0">I’m a multidiciplinary designer and front-end developer in Baltimore, MD. Currently pursuing a BFA at <a class="link dim out" href="https://www.mica.edu/">MICA</a> and working as 50% of <a class="link dim out" href="http://defaultvalue.info/">Default Value</a>.</p>
-        <p>I'll be available for new projects starting May 2017.</p>
+        <p class="ma0">I’m a multidiciplinary designer and front-end developer based in Baltimore, MD. Currently pursuing a BFA at <a class="link dim out" href="https://www.mica.edu/">MICA</a> and working as 50% of <a class="link dim out" href="http://defaultvalue.info/">Default Value</a>.</p>
+        <p>I'll be available for new projects (both full-time and part-time) starting May 2017.</p>
       </section>
       <section class="mb3">
         <h2 class="f3 ma0">Links</h2>
@@ -66,9 +66,24 @@
   <script src="{{ "/assets/js/split.js" | prepend: site.baseurl }}"></script>
   {% if page.url != "/" %}
   <script>
+  var s;
+  var w = document.getElementById('html').getBoundingClientRect();
+
+  if(window.outerWidth < 700){
+    console.log('small');
+    s = [0,100];
+  } else if(window.outerWidth > 2100){
+    console.log('large');
+    s = [50,50];
+  } else {
+    console.log('med');
+    s = [30,70];
+  }
+
   Split(['#r1', '#r2'], {
-    sizes: [30, 70],
-    gutterSize: 20
+    sizes: s,
+    gutterSize: 20,
+    minSize: 0
   });
   </script>
   {% endif %}

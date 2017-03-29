@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
 }
 *, ::before, ::after { box-sizing: inherit; }
@@ -20,17 +20,8 @@ img { max-width: 100%; }
 .link {
   color: blue;
   position: relative;
-  text-decoration: none;
+  text-decoration: underline;
   white-space: nowrap;
-  &:before {
-    content: '';
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 1px;
-    border-width: 0 0 1px;
-    border-style: solid;
-  }
 }
 
 ul.list {
@@ -90,7 +81,13 @@ ul.list {
 .t-0 { top: 0 !important; }
 .absolute { position: absolute !important; }
 .fixed { position: fixed !important; }
-
+.left { float: left; }
+.right { float: right; }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /***************/
 /**** hover ****/

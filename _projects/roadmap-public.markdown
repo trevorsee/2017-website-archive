@@ -7,17 +7,17 @@ position: 2
 time: Summer 2016
 ---
 
-![a](/uploads/trevorcarr-dot-info-roadmappublic1.png)
+![](/uploads/trevorcarr-dot-info-roadmappublic1.png)
 
-Design and development for a [new public website](https://ppmroadmap.com) for Roadmap.
+Design and development for a <span class="link dim out">[new public website](https://ppmroadmap.com)</span> for Roadmap.
 {: .measure-wide }
 
 **Updated infrastructure allowing easy editing**
 <br>
-The main reason for updating the website was to move to a system that allowed non-technical employees to easily update copy and blog posts. We used this as an opportunity to make visual improvements across the board to the website bridging the gap between Roadmap 1.0 and Roadmap 2.0.
+The main reason for updating the website was to move to a system that allowed non-technical employees to easily update copy and blog posts. We used this as an opportunity to make visual improvements across the board to the website, bridging the gap between Roadmap 1.0 and Roadmap 2.0.
 {: .measure-wide .pb1 }
 
-![a](/uploads/trevorcarr-dot-info-roadmappublic2.png)
+![](/uploads/trevorcarr-dot-info-roadmappublic2.png)
 
 **Show the app**
 <br>
@@ -26,15 +26,15 @@ We wanted to put visuals of the app front-and-center. Rather than only a list of
 
 **Quick and easy signups**
 <br>
-We decided to include a trial sign-up on the bottom of each page. At any point while scanning or browsing the website a visitor can join a free-trial. Rather than having to find the way to navigate to a specific page.
+We decided to include a trial sign-up on the bottom of each page. At any point while scanning or browsing the website a visitor can begin a free trial.
 {: .measure-wide }
 
 **Technical Specifications**
 <br>
-We wanted to build the website quickly and efficiently, so we used Basscss and jekyll, using Siteleaf as a CMS to allow easy editting.
+We wanted to build the website quickly and efficiently, so we used <span class="link dim out">[Basscss](http://basscss.com/)</span> and <span class="link dim out">[Jekyll](https://jekyllrb.com/)</span>, using <span class="link dim out">[Siteleaf](https://www.siteleaf.com/)</span> as a CMS to allow easy editing.
 {: .measure-wide }
 
-![a](/uploads/trevorcarr-dot-info-roadmappublic4.png)
-![a](/uploads/trevorcarr-dot-info-roadmappublic3.png)
+![](/uploads/trevorcarr-dot-info-roadmappublic4.png)
+![](/uploads/trevorcarr-dot-info-roadmappublic3.png)
 
-[https://ppmroadmap.com](https://ppmroadmap.com)
+<span class="link dim out">[https://ppmroadmap.com](https://ppmroadmap.com)</span>
