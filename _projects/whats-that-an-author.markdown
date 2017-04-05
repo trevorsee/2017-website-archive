@@ -8,7 +8,7 @@ time: Fall 2016
 ---
 
 <img ix-path="trevorcarr-dot-info-author1.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 A publication and installation exploring machine learning and authorship through Calvino’s Invisible Cities.
 {: .measure-wide }
@@ -22,17 +22,17 @@ Leonia:
 <iframe src="/uploads/trevorcarr-dot-info-leonia.txt" width="50%" height="800px"></iframe>
 
 <img ix-path="trevorcarr-dot-info-author3.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-author6.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-author7.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-author8.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-author9.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-author10.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 ---
 
 To extend the idea of generated or author-agnostic content, I trained a recurrent neural network on a corpus of Calvino's writing. The output was printed with an Arduino-controlled receipt printer as well as displayed as a tiled poster.
@@ -42,8 +42,8 @@ Output:
 <iframe src="/uploads/trevorcarr-dot-info-authortext.txt" width="50%" height="800px"></iframe>
 
 <img ix-path="trevorcarr-dot-info-author11.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-author12.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-author13.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />

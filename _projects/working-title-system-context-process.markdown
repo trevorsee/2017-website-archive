@@ -8,7 +8,7 @@ time: Fall 2016
 ---
 
 <img ix-path="trevorcarr-dot-info-workingtitle1.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 Organization and branding for MICA Design League's fall exhibition.
 {: .measure-wide }
@@ -23,17 +23,17 @@ We were interested in curating work that is multi-faceted, multi-disciplinary, p
 {: .measure-wide .pb1 }
 
 <img ix-path="trevorcarr-dot-info-workingtitle2.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-workingtitle3.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-workingtitle4.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-workingtitle5.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-workingtitle6.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-workingtitle7.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 Thanks to:
 - {: .list} McKenzie Schroeder

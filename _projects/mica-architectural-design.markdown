@@ -8,7 +8,7 @@ time: Fall 2016
 ---
 
 <img ix-path="trevorcarr-dot-info-micaad2.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 Publication for MICA’s Architectural Design department.
 {: .measure-wide }
@@ -21,6 +21,6 @@ I designed the book to accommodate changes in the department from year to year, 
 
 ![](/uploads/trevorcarr-dot-info-micaad1.gif)
 <img ix-path="trevorcarr-dot-info-micaad3.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-micaad4.jpg"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />

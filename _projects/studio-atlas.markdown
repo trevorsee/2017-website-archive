@@ -8,7 +8,7 @@ time: Spring 2017 
 ---
 
 <img ix-path="trevorcarr-dot-info-studioatlas1.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 An index of graphic design studios and how they describe themselves.
 {: .measure-wide }
@@ -24,8 +24,8 @@ The resulting simple React app plots the studios according to their coordinates,
 
 ![](/uploads/trevorcarr-dot-info-studioatlas3.gif)
 <img ix-path="trevorcarr-dot-info-studioatlas2.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-studioatlas4.png"
-    sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+    sizes="100vw" />
 
 <span class="link dim out">[Studio Atlas](https://trevorcarr.info/deploy-studio-atlas/)</span>

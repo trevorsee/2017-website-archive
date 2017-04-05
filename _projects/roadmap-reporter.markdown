@@ -8,7 +8,7 @@ time: Summer 2016
 ---
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter1.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 Product design for Reporter: an MVP for Roadmap 2.0.
 {: .measure-wide .mt0 }
@@ -20,9 +20,9 @@ I joined the small team of four to help reimagine Roadmap from the ground up fro
 {: .measure-wide .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter2.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-roadmapreporter4.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 **The goals of Reporter**
 <br>
@@ -43,7 +43,7 @@ To exist concurrently with Roadmap 1.0, to provide new features to existing cust
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter3.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 **Integrations**
 <br>
@@ -56,7 +56,7 @@ A Report is a structured comparison of hours, workdays, or dollars across projec
 {: .measure-wide .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter5.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 **Base Report**
 <br>
@@ -64,7 +64,7 @@ Base reports are the core unit of Reporter. The goal is to provide clear and use
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter6.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 **Hiding information until asked**
 <br>
@@ -72,7 +72,7 @@ I designed Reporter with the principal that targeted information is better than 
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter7.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 **Saved Reports & Filters**
 <br>
@@ -80,11 +80,11 @@ A base report can be saved with a relative timeframe, optional Filters, custom n
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter8.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-roadmapreporter9.png"
-    sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+    sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-roadmapreporter10.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 **Collections**
 <br>
@@ -92,7 +92,7 @@ Saved Reports can be sorted into Collections and viewed with a targeted context 
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter11.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 **Dashboard & Exceptions**
 <br>

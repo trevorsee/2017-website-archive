@@ -8,7 +8,7 @@ time: Fall 2016
 ---
 
 <img ix-path="trevorcarr-dot-info-wwwwwwork3.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 
 A declarative tool for generating ideas.
 {: .measure-wide }
@@ -23,8 +23,8 @@ We created a tool that could act as a container for holding bits, ideas, phrases
 {: .measure-wide .pb1 }
 
 <img ix-path="trevorcarr-dot-info-wwwwwwork1.png"
-     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+     sizes="100vw" />
 <img ix-path="trevorcarr-dot-info-wwwwwwork2.png"
-    sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+    sizes="100vw" />
 
 <span class="link dim out">[https://wwwwww.work](https://trevorcarr.info/wwwwwwork/)</span>
