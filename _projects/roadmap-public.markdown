@@ -7,7 +7,8 @@ position: 2
 time: Summer 2016
 ---
 
-![](/uploads/trevorcarr-dot-info-roadmappublic1.png)
+<img ix-path="trevorcarr-dot-info-roadmappublic1.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 Design and development for a <span class="link dim out">[new public website](https://ppmroadmap.com)</span> for Roadmap.
 {: .measure-wide }
@@ -17,7 +18,8 @@ Design and development for a <span class="link dim out">[new public website](htt
 The main reason for updating the website was to move to a system that allowed non-technical employees to easily update copy and blog posts. We used this as an opportunity to make visual improvements across the board to the website, bridging the gap between Roadmap 1.0 and Roadmap 2.0.
 {: .measure-wide .pb1 }
 
-![](/uploads/trevorcarr-dot-info-roadmappublic2.png)
+<img ix-path="trevorcarr-dot-info-roadmappublic2.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **Show the app**
 <br>
@@ -34,7 +36,10 @@ We decided to include a trial sign-up on the bottom of each page. At any point w
 We wanted to build the website quickly and efficiently, so we used <span class="link dim out">[Basscss](http://basscss.com/)</span> and <span class="link dim out">[Jekyll](https://jekyllrb.com/)</span>, using <span class="link dim out">[Siteleaf](https://www.siteleaf.com/)</span> as a CMS to allow easy editing.
 {: .measure-wide }
 
-![](/uploads/trevorcarr-dot-info-roadmappublic4.png)
-![](/uploads/trevorcarr-dot-info-roadmappublic3.png)
+<img ix-path="trevorcarr-dot-info-roadmappublic4.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+ <img ix-path="trevorcarr-dot-info-roadmappublic3.png"
+      sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+
 
 <span class="link dim out">[https://ppmroadmap.com](https://ppmroadmap.com)</span>

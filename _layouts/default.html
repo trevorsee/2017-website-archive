@@ -25,12 +25,19 @@
           {% assign sorted = site.projects | sort:"position" %}
           {% for project in sorted %}
             {% if project.publish %}
-              {% assign thumb = {{project.photo}} | replace: '/uploads/', '' %}
+              {% assign filtered-photo = {{project.photo}} | replace: '/uploads/', '' %}
               <div class="flex items-center">
-                <img class="h-2 w-3 mr05 mb0125"
-                     srcset="{{site.imgurl}}/c_fill,dpr_1.0,h_40,w_60/{{site.tempurl}}{{project.photo}} 1.0x,
-                             {{site.imgurl}}/c_fill,dpr_2.0,h_40,w_60/{{site.tempurl}}{{project.photo}} 2.0x"
-                     src="{{site.imgurl}}/c_fill,dpr_2.0,h_40,w_60/{{site.tempurl}}{{project.photo}}"  />
+                <img
+                  class="h-2 w-3 mr05 mb0125"
+                  ix-path="{{filtered-photo}}"
+                  ix-params='{
+                    "w": 300,
+                    "h": 200,
+                    "fit": "crop"
+                  }'
+                  sizes="3rem"
+                  alt="{{project.title}}"
+                />
                 <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
               </div>
             {% endif %}
@@ -59,10 +66,10 @@
 
   ga('create', 'UA-96203809-1', 'auto');
   ga('send', 'pageview');
-
   </script>
 
 
+  <script src="{{ "/assets/js/imgix.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/split.js" | prepend: site.baseurl }}"></script>
   {% if page.url != "/" %}
   <script>

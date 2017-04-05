@@ -2,12 +2,13 @@
 title: MICA AD Degree Plan
 date: 2016-12-14 00:00:00 Z
 position: 9
-photo: "/uploads/mock2-1.jpg"
+photo: "/uploads/trevorcarr-dot-info-micaad3.jpg"
 publish: true
 time: Fall 2016
 ---
 
-![](/uploads/trevorcarr-dot-info-micaad2.jpg)
+<img ix-path="trevorcarr-dot-info-micaad2.jpg"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 Publication for MICA’s Architectural Design department.
 {: .measure-wide }
@@ -19,5 +20,7 @@ I designed the book to accommodate changes in the department from year to year, 
 {: .measure-wide .pb1 }
 
 ![](/uploads/trevorcarr-dot-info-micaad1.gif)
-![](/uploads/trevorcarr-dot-info-micaad3.jpg)
-![](/uploads/trevorcarr-dot-info-micaad4.jpg)
+<img ix-path="trevorcarr-dot-info-micaad3.jpg"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+<img ix-path="trevorcarr-dot-info-micaad4.jpg"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />

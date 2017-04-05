@@ -7,16 +7,22 @@ position: 1
 time: Summer 2016
 ---
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter1.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter1.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 Product design for Reporter: an MVP for Roadmap 2.0.
 {: .measure-wide .mt0 }
 
-Roadmap is an <span class="nobreak">enterprise-scale</span> project management tool focused on integrating with existing tools and <span class="nobreak">exception-based</span> management. While Roadmap is in process of rebuilding both from a design and technology point of view, it became clear that we needed a strategy for releasing an MVP.
+Roadmap is an <span class="nobreak">enterprise-scale</span> project management tool focused on integrating with existing tools and <span class="nobreak">exception-based</span> management.
+{: .measure-wide }
+
+I joined the small team of four to help reimagine Roadmap from the ground up from both a design and technology point of view. After interviewing different types of customers about how they use Roadmap, and about their project workflow. We found what worked and didn't work about the current release of Roadmap. A clearer point of view, better user experience, and more flexible and easily adoptable tool. It became clear that we needed a strategy for slowly rolling out Roadmap 2.0: an MVP of Reporter.
 {: .measure-wide .mb5 }
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter2.png)
-![](/uploads/trevorcarr-dot-info-roadmapreporter4.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter2.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+<img ix-path="trevorcarr-dot-info-roadmapreporter4.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **The goals of Reporter**
 <br>
@@ -36,7 +42,8 @@ To exist concurrently with Roadmap 1.0, to provide new features to existing cust
 - {: .list} Better Support for low-granularity data
 {: .measure-wide .mt0 .mb5 }
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter3.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter3.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **Integrations**
 <br>
@@ -48,45 +55,44 @@ The primary value of Roadmap is collecting data from a variety of tools (github,
 A Report is a structured comparison of hours, workdays, or dollars across projects, people, tasks, or roles. This allows a user to analyze past data, measure progress, and forecast the future, enabling faster, better decisions.
 {: .measure-wide .mb5 }
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter5.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter5.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **Base Report**
 <br>
-The core unit-
-overview, by time, by distribution
-examples: Planning Efficiency, Utilization, Project Status, Revenue, Collisions, ...
+Base reports are the core unit of Reporter. The goal is to provide clear and useful information in a flexible way. A base report comes with a primary data set: Planning Efficiency, Utilization, Project Status, Revenue, Collisions, as well as a series of data columns (logged hours, planned hours, etc). A base report has different views: overview, by time, by distribution, can be viewed across different data sets (hours, work-day, budget dollars) and can be navigated across time and time resolution (week, month, ...).
 {: .measure-wide .mt0 .mb5 }
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter6.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter6.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **Hiding information until asked**
 <br>
-A row can be expanded to view it's contributing factors ( Projects -> tasks, people, roles) This expanded view should always add up to the same numbers. Sometimes this will require an "Unassigned" role. (ie a project's hours might not all be associated with a role).
-Targetted information > complete information (with easy access)
+I designed Reporter with the principal that targeted information is better than complete information, as long as there is easy navigation to ask for contextually related data. A row can be expanded to view it's contributing factors (a project expands to see the internal tasks, people, and roles).
 {: .measure-wide .mt0 .mb5 }
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter7.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter7.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **Saved Reports & Filters**
 <br>
-optional Filters
-relative timeframe
-custom names
-rolled up widget viz
-Rather than spending time grouping and organizing a large table view, Saved Reports allows a single setup and return. Rolled-up card view.
+A base report can be saved with a relative timeframe, optional Filters, custom names, and rolled up widget viz.  Rather than spending time grouping and organizing a large table view each time you open Roadmap for a particular task - Saved Reports allows a single setup and return.
 {: .measure-wide .mt0 .mb5 }
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter8.png)
-![](/uploads/trevorcarr-dot-info-roadmapreporter9.png)
-![](/uploads/trevorcarr-dot-info-roadmapreporter10.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter8.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+<img ix-path="trevorcarr-dot-info-roadmapreporter9.png"
+    sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
+<img ix-path="trevorcarr-dot-info-roadmapreporter10.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **Collections**
 <br>
-Saved Reports can be sorted in to Collections and viewed with a targeted context ("JS weekly meeting").
-Saved reports are primarily viewed through collections. - to give some amount of context before clickthrough, to “prime” a question that needs answered before clickthrough
+Saved Reports can be sorted into Collections and viewed with a targeted context ("JS weekly meeting"). Using collections gives some amount of context before clickthrough, to “prime” a question that needs answered before clickthrough. Rather than "browsing" data.
 {: .measure-wide .mt0 .mb5 }
 
-![](/uploads/trevorcarr-dot-info-roadmapreporter11.png)
+<img ix-path="trevorcarr-dot-info-roadmapreporter11.png"
+     sizes="(min-width: 2100px) 50vw, (min-width: 700px) 70vw, 100vw" />
 
 **Dashboard & Exceptions**
 <br>
