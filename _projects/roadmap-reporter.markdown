@@ -94,14 +94,14 @@ Saved Reports can be sorted into Collections and viewed with a targeted context 
 <img ix-path="trevorcarr-dot-info-roadmapreporter11.png"
      sizes="100vw" />
 
-**Dashboard & Exceptions**
+**Dashboard**
 <br>
-1.  Give access to important information, in a way that avoids the need to dig deeper
-2.  if digging deeper, provide useful links
-The main reason for updating the website was to allow non-technical employees to easily update copy and blog posts. I used this as an opportunity to make improvements across the board to Roadmap’s public face.
-color coding exceptions. Roadmap will help Project Managers use their time efficiently
-Once reports are saved and filtered in to contextual collections, and exception bounds are chosen, RM can add immense value as a short quick overview each business day. It doesn't have to be a chore or additional baggage. Given data integrations and
-Generic stats. Projects, Tasks, People, what was completed, what is late, etc. Saved Report Collections, pages of saved reports with names. Chosen to be shown on the dashboard for a quick overview.
+The dashboard gives access to important status information, as well as chosen Collections, to see the general health of your team's progress. This allows Roadmap to be useful as a quick overview of each business day, rather than a chore or additional baggage.
+{: .measure-wide .mt0 .mb5 }
+
+**Exceptions**
+<br>
+Exceptions are contextually chosen bounds for data across Roadmap. This helps a user direct their attention to problem areas, and help prioritize decisions. For example, a project manager might only care about Utilization if it is under 75% or over 110%. A color-coded saved report can alert them to the issue, and they can drill-down to find and solve the problem.
 {: .measure-wide .mt0 .mb5 }
 
 
