@@ -2,7 +2,7 @@
 title: 'Roadmap: Reporter'
 date: 2016-12-14 05:31:00 Z
 photo: "/uploads/trevorcarr-dot-info-roadmapreporter1.png"
-publish: false
+publish: true
 position: 1
 time: Summer 2016
 ---
@@ -16,7 +16,7 @@ Product design for Reporter: an MVP for Roadmap 2.0.
 Roadmap is an <span class="nobreak">enterprise-scale</span> project management tool focused on integrating with existing tools and <span class="nobreak">exception-based</span> management.
 {: .measure-wide }
 
-I joined the small team of four to help reimagine Roadmap from the ground up from both a design and technology point of view. After interviewing different types of customers about how they use Roadmap, and about their project workflow. We found what worked and didn't work about the current release of Roadmap. A clearer point of view, better user experience, and more flexible and easily adoptable tool. It became clear that we needed a strategy for slowly rolling out Roadmap 2.0: an MVP of Reporter.
+I joined the small team of four to help reimagine Roadmap from the ground up, from both a design and technology perspective. After interviewing different types of customers about their project workflow and about how they use Roadmap, we found what worked and didn’t work about the current release of Roadmap. It became clear that a simpler point of view, better user experience, and a more flexible and easily adoptable tool were essential to satisfy and expand the user base. Because all of these improvements required sweeping changes to Roadmap 1.0, we needed a strategy for slowly rolling out Roadmap 2.0. We developed Reporter as an MVP for Roadmap 2.0 in order to begin that transition.
 {: .measure-wide .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter2.png"
@@ -25,9 +25,11 @@ I joined the small team of four to help reimagine Roadmap from the ground up fro
      sizes="100vw" />
 
 **The goals of Reporter**
-<br>
-To exist concurrently with Roadmap 1.0, to provide new features to existing customers, and to raise revenue from new customers.
-{: .measure-wide }
+{: .measure-wide .ma0 }
+- {: .list} Exist concurrently with Roadmap 1.0
+- {: .list} Provide new features to existing customers
+- {: .list} Raise revenue from new customers
+{: .measure-wide .mt0 .mb5 }
 
 **Ideas & Principles**
 {: .measure-wide .ma0 }
@@ -47,12 +49,12 @@ To exist concurrently with Roadmap 1.0, to provide new features to existing cust
 
 **Integrations**
 <br>
-The primary value of Roadmap is collecting data from a variety of tools (github, trello, jira, ...) into a single view. A customer is often a single administrator or team leader and doesn't have to ask their team to adopt a brand new tool.
+The primary value of Roadmap is collecting data from a variety of tools (Github, Trello, Jira, Basecamp, …) into a single view. A Roadmap customer is often a single administrator or team leader and can use Roadmap to view data from the myriad of tools their team uses  day-to-day without asking their team to adopt a new tool.
 {: .measure-wide .mt0 }
 
 **Reports**
 <br>
-A Report is a structured comparison of hours, workdays, or dollars across projects, people, tasks, or roles. This allows a user to analyze past data, measure progress, and forecast the future, enabling faster, better decisions.
+A Report is a structured comparison of hours, workdays, or dollars across projects, people, tasks, or roles. This allows a user to analyze past data, measure progress, and forecast the future, which enables faster, better decisions.
 {: .measure-wide .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter5.png"
@@ -60,7 +62,8 @@ A Report is a structured comparison of hours, workdays, or dollars across projec
 
 **Base Report**
 <br>
-Base reports are the core unit of Reporter. The goal is to provide clear and useful information in a flexible way. A base report comes with a primary data set: Planning Efficiency, Utilization, Project Status, Revenue, Collisions, as well as a series of data columns (logged hours, planned hours, etc). A base report has different views: overview, by time, by distribution, can be viewed across different data sets (hours, work-day, budget dollars) and can be navigated across time and time resolution (week, month, ...).
+Base reports are the core unit of Reporter. Their goal is to provide clear and useful information in a flexible way. A base report comes with a primary data set: Planning Efficiency, Utilization, Project Status, Revenue, Collisions, as well as a series of data columns (logged hours, planned hours, etc). A base report has different views: overview, by time, by distribution, can be viewed across different data sets (hours, work-day, budget dollars) and can be navigated across time and time resolution (week, month, …).
+.
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter6.png"
@@ -68,7 +71,7 @@ Base reports are the core unit of Reporter. The goal is to provide clear and use
 
 **Hiding information until asked**
 <br>
-I designed Reporter with the principal that targeted information is better than complete information, as long as there is easy navigation to ask for contextually related data. A row can be expanded to view it's contributing factors (a project expands to see the internal tasks, people, and roles).
+I designed Reporter with the perspective that targeted information is better than complete information, as long as there is easy navigation to ask for contextually related data. A project expands to see the internal tasks, people, and roles. A row can be expanded to view its contributing factors.
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter7.png"
@@ -76,7 +79,7 @@ I designed Reporter with the principal that targeted information is better than 
 
 **Saved Reports & Filters**
 <br>
-A base report can be saved with a relative timeframe, optional Filters, custom names, and rolled up widget viz.  Rather than spending time grouping and organizing a large table view each time you open Roadmap for a particular task - Saved Reports allows a single setup and return.
+A base report can be saved with a relative timeframe, optional filters, a custom name, and is collapsed into a small card. Rather than spending time organizing a large table view each time you open Roadmap for a particular task - Saved Reports allows a single setup that can be returned to.
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter8.png"
@@ -88,7 +91,7 @@ A base report can be saved with a relative timeframe, optional Filters, custom n
 
 **Collections**
 <br>
-Saved Reports can be sorted into Collections and viewed with a targeted context ("JS weekly meeting"). Using collections gives some amount of context before clickthrough, to “prime” a question that needs answered before clickthrough. Rather than "browsing" data.
+Saved Reports can be sorted into Collections and viewed with a targeted context, such as Weekly Meetings. Using collections gives some amount of context before clickthrough rather than wasting time browsing through data looking for what is relevant.
 {: .measure-wide .mt0 .mb5 }
 
 <img ix-path="trevorcarr-dot-info-roadmapreporter11.png"
@@ -96,13 +99,13 @@ Saved Reports can be sorted into Collections and viewed with a targeted context 
 
 **Dashboard**
 <br>
-The dashboard gives access to important status information, as well as chosen Collections, to see the general health of your team's progress. This allows Roadmap to be useful as a quick overview of each business day, rather than a chore or additional baggage.
-{: .measure-wide .mt0 .mb5 }
+The dashboard displays the general health of a team’s progress, gives access to important status information, as well as provides easy access to pinned Collections. This allows Roadmap to be useful as a quick overview of each business day, rather than a chore or additional baggage.
+{: .measure-wide .mt0 }
 
 **Exceptions**
 <br>
-Exceptions are contextually chosen bounds for data across Roadmap. This helps a user direct their attention to problem areas, and help prioritize decisions. For example, a project manager might only care about Utilization if it is under 75% or over 110%. A color-coded saved report can alert them to the issue, and they can drill-down to find and solve the problem.
-{: .measure-wide .mt0 .mb5 }
+Exceptions are contextually-chosen bounds for data in Roadmap. This helps a user direct their attention to problem areas, and helps prioritize decisions. For example, a project manager might only care about Utilization if it is under 75% or over 110%. A color-coded saved report can alert them to the issue, and they can drill-down to find and solve the problem.
+{: .measure-wide .mb5 }
 
 
 <span class="link dim out">[https://beta.ppmroadmap.com](https://beta.ppmroadmap.com)</span>
