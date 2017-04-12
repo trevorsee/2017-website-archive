@@ -29,7 +29,7 @@ I joined the small team of four to help reimagine Roadmap from the ground up, fr
 - {: .list} Exist concurrently with Roadmap 1.0
 - {: .list} Provide new features to existing customers
 - {: .list} Raise revenue from new customers
-{: .measure-wide .mt0 .mb5 }
+{: .measure-wide .mt0 }
 
 **Ideas & Principles**
 {: .measure-wide .ma0 }
