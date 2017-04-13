@@ -27,17 +27,12 @@
             {% if project.publish %}
               {% assign filtered-photo = {{project.photo}} | replace: '/uploads/', '' %}
               <div class="flex items-center">
+
                 <img
                   class="h-2 w-3 mr05 mb0125"
-                  ix-path="{{filtered-photo}}"
-                  ix-params='{
-                    "w": 300,
-                    "h": 200,
-                    "fit": "crop"
-                  }'
-                  sizes="3rem"
-                  alt="{{project.title}}"
-                />
+                  src="{{ filtered-photo | imgix_url: w: 300, h: 200, q: 70, fit: 'crop' }}"
+                  alt="{{ project.title }}" />
+
                 <li><a class="link dim" href="{{project.url}}">{{project.title}}</a></li>
               </div>
             {% endif %}
@@ -68,9 +63,8 @@
   ga('send', 'pageview');
   </script>
 
-
-  <script src="{{ "/assets/js/imgix.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/split.js" | prepend: site.baseurl }}"></script>
+
   {% if page.url != "/" %}
   <script>
   var s;
