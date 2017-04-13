@@ -1,9 +1,9 @@
 ---
 title: 'Roadmap: Reporter'
 date: 2016-12-14 05:31:00 Z
+position: 1
 photo: "/uploads/trevorcarr-dot-info-roadmapreporter1.png"
 publish: true
-position: 1
 time: Summer 2016
 ---
 

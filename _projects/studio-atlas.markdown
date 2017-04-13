@@ -1,9 +1,9 @@
 ---
 title: Studio Atlas
 date: 2016-12-14 05:31:00 Z
+position: 4
 photo: "/uploads/trevorcarr-dot-info-studioatlas1.png"
 publish: true
-position: 4
 time: Spring 2017 
 ---
 
