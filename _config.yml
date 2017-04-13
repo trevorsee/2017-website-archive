@@ -59,3 +59,20 @@ links:
 port: 4001
 imgurl: http://res.cloudinary.com/daiyzvpj5/image/fetch
 tempurl: http://trevorcarr.info/2017website/
+sizes: '100vw'
+srcset:
+  - 500
+  - 750
+  - 1000
+  - 1250
+  - 1500
+  - 1750
+  - 2000
+  - 2250
+  - 2500
+  - 2750
+  - 3000
+gems:
+- jekyll/imgix
+imgix:
+  source: default-value.imgix.net

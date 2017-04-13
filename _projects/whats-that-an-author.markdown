@@ -7,8 +7,8 @@ publish: true
 time: Fall 2016
 ---
 
-<img ix-path="trevorcarr-dot-info-author1.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-author1.jpg" %}
+{% include srcset-imgix.html %}
 
 A publication and installation exploring machine learning and authorship through Calvino’s Invisible Cities.
 {: .measure-wide }
@@ -21,18 +21,21 @@ For the content of the books I spliced together the story of Leonia, excerpts fr
 Leonia:
 <iframe src="/uploads/trevorcarr-dot-info-leonia.txt" width="50%" height="800px"></iframe>
 
-<img ix-path="trevorcarr-dot-info-author3.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-author6.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-author7.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-author8.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-author9.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-author10.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-author3.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-author7.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-author8.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-author9.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-author10.jpg" %}
+{% include srcset-imgix.html %}
+
 ---
 
 To extend the idea of generated or author-agnostic content, I trained a recurrent neural network on a corpus of Calvino's writing. The output was printed with an Arduino-controlled receipt printer as well as displayed as a tiled poster.
@@ -41,9 +44,11 @@ To extend the idea of generated or author-agnostic content, I trained a recurren
 Output:
 <iframe src="/uploads/trevorcarr-dot-info-authortext.txt" width="50%" height="800px"></iframe>
 
-<img ix-path="trevorcarr-dot-info-author11.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-author12.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-author13.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-author11.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-author12.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-author13.jpg" %}
+{% include srcset-imgix.html %}
