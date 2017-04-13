@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Trevor Carr</title>
+  <title>Colophon</title>
   <meta name="description" content="Trevor Carr is a multidiciplinary designer and front-end developer based in Baltimore, MD.">
   <meta property="ix:host" content="default-value.imgix.net">
   <meta property="ix:useHttps" content="true">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/colophon/">
 </head>
 
 
@@ -205,7 +205,21 @@
     <main id="r" class="t-0 l-0 r-0 fixed z-100 h-100 flex pe-none">
       <div id="r1" class="w-0 pe-none"></div>
       <div id="r2" class="h-100 scroll bg-white pt1 pr1 pb1 w-0 pe-initial">
-        
+        <div class="clearfix">
+  <a class="link dim right" href="/">close</a>
+  <h2 class="f3 ma0 left">Colophon</h2>
+  
+</div>
+
+<div class="markdown">
+  <p><img src="/uploads/trevorcarr-dot-info-website.png" alt="" /></p>
+
+<p class="measure-wide">A new website for 2017.</p>
+
+<p class="measure-wide pb1">Running on <span class="link dim out"><a href="https://jekyllrb.com/">Jekyll</a></span> through <span class="link dim out"><a href="https://www.siteleaf.com/">Siteleaf</a></span> and is hosted on <span class="link dim out"><a href="https://pages.github.com/">GitHub Pages</a></span>. Resizable thanks to <span class="link dim out"><a href="https://nathancahill.github.io/Split.js/">Split.js</a></span>.</p>
+
+</div>
+
       </div>
     </main>
 
@@ -223,6 +237,28 @@
 
   <script src="/assets/js/split.js"></script>
 
+  
+  <script>
+  var s;
+  var w = document.getElementById('html').getBoundingClientRect();
+
+  if(window.outerWidth < 700){
+    console.log('small');
+    s = [0,100];
+  } else if(window.outerWidth > 2100){
+    console.log('large');
+    s = [50,50];
+  } else {
+    console.log('med');
+    s = [30,70];
+  }
+
+  Split(['#r1', '#r2'], {
+    sizes: s,
+    gutterSize: 20,
+    minSize: 0
+  });
+  </script>
   
 
 </html>

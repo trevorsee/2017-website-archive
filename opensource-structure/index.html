@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Trevor Carr</title>
-  <meta name="description" content="Trevor Carr is a multidiciplinary designer and front-end developer based in Baltimore, MD.">
+  <title>Idea Generator</title>
+  <meta name="description" content="">
   <meta property="ix:host" content="default-value.imgix.net">
   <meta property="ix:useHttps" content="true">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/opensource-structure/">
 </head>
 
 
@@ -205,7 +205,25 @@
     <main id="r" class="t-0 l-0 r-0 fixed z-100 h-100 flex pe-none">
       <div id="r1" class="w-0 pe-none"></div>
       <div id="r2" class="h-100 scroll bg-white pt1 pr1 pb1 w-0 pe-initial">
-        
+        <div class="clearfix">
+  <a class="link dim right" href="/">close</a>
+  <h2 class="f3 ma0 left">Idea Generator</h2>
+  
+    <div class="ttu left"><span class="ma05">—</span> Fall 2016</div>
+  
+</div>
+
+<div class="markdown">
+  <!-- <div class="browser relative">
+  <iframe class="test" src="http://alizeefreudenthal.com" width="96.5%" height="88.5%"></iframe>
+</div> -->
+
+<iframe src="http://trevorcarr.info/wwwwwwork" width="100%" height="700px"></iframe>
+
+<p class="measure-wide pb1">Thinking about tools and making. How can our tools expand possibilities and make us better, rather than working as a crutch to limit ourselves in to a particular type of design. What are the limitations of authorship? To what degree do you really own anything as original. Collaboration - what is the point, why do we do it,</p>
+
+</div>
+
       </div>
     </main>
 
@@ -223,6 +241,28 @@
 
   <script src="/assets/js/split.js"></script>
 
+  
+  <script>
+  var s;
+  var w = document.getElementById('html').getBoundingClientRect();
+
+  if(window.outerWidth < 700){
+    console.log('small');
+    s = [0,100];
+  } else if(window.outerWidth > 2100){
+    console.log('large');
+    s = [50,50];
+  } else {
+    console.log('med');
+    s = [30,70];
+  }
+
+  Split(['#r1', '#r2'], {
+    sizes: s,
+    gutterSize: 20,
+    minSize: 0
+  });
+  </script>
   
 
 </html>

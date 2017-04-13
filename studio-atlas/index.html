@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Trevor Carr</title>
-  <meta name="description" content="Trevor Carr is a multidiciplinary designer and front-end developer based in Baltimore, MD.">
+  <title>Studio Atlas</title>
+  <meta name="description" content="">
   <meta property="ix:host" content="default-value.imgix.net">
   <meta property="ix:useHttps" content="true">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/studio-atlas/">
 </head>
 
 
@@ -205,7 +205,36 @@
     <main id="r" class="t-0 l-0 r-0 fixed z-100 h-100 flex pe-none">
       <div id="r1" class="w-0 pe-none"></div>
       <div id="r2" class="h-100 scroll bg-white pt1 pr1 pb1 w-0 pe-initial">
-        
+        <div class="clearfix">
+  <a class="link dim right" href="/">close</a>
+  <h2 class="f3 ma0 left">Studio Atlas</h2>
+  
+    <div class="ttu left"><span class="ma05">—</span> Spring 2017 </div>
+  
+</div>
+
+<div class="markdown">
+  
+<p><img src="trevorcarr-dot-info-studioatlas1.png" sizes="100vw" srcset="trevorcarr-dot-info-studioatlas1.png 500w, trevorcarr-dot-info-studioatlas1.png 750w, trevorcarr-dot-info-studioatlas1.png 1000w, trevorcarr-dot-info-studioatlas1.png 1250w, trevorcarr-dot-info-studioatlas1.png 1500w, trevorcarr-dot-info-studioatlas1.png 1750w, trevorcarr-dot-info-studioatlas1.png 2000w, trevorcarr-dot-info-studioatlas1.png 2250w, trevorcarr-dot-info-studioatlas1.png 2500w, trevorcarr-dot-info-studioatlas1.png 2750w, trevorcarr-dot-info-studioatlas1.png 3000w" /></p>
+
+<p class="measure-wide">An index of graphic design studios and how they describe themselves.</p>
+
+<p class="measure-wide">We collected data about studios and their descriptions in to a spreadsheet that could be accessed by API through Sheetlabs. That data is piped into a python script that uses <span class="link dim out nobreak"><a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a></span> and <span class="link dim out nobreak"><a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">t-SNE</a></span> algorithms to sort the studios. Studios that use similar words or write in a similar way are grouped together.</p>
+
+<p class="measure-wide">The resulting simple React app plots the studios according to their coordinates, creating a field of studio homepages that the user can explore at their own pace. We hope that this encourages a viewer to find relationships between grouped studios in both aesthetic and linguistic terms.</p>
+
+<p class="measure-wide pb1">— in collaboration with <span class="link dim out"><a href="http://defaultvalue.info/">Default Value</a></span>.</p>
+
+<p><img src="/uploads/trevorcarr-dot-info-studioatlas3.gif" alt="" /></p>
+
+<p><img src="trevorcarr-dot-info-studioatlas2.png" sizes="100vw" srcset="trevorcarr-dot-info-studioatlas2.png 500w, trevorcarr-dot-info-studioatlas2.png 750w, trevorcarr-dot-info-studioatlas2.png 1000w, trevorcarr-dot-info-studioatlas2.png 1250w, trevorcarr-dot-info-studioatlas2.png 1500w, trevorcarr-dot-info-studioatlas2.png 1750w, trevorcarr-dot-info-studioatlas2.png 2000w, trevorcarr-dot-info-studioatlas2.png 2250w, trevorcarr-dot-info-studioatlas2.png 2500w, trevorcarr-dot-info-studioatlas2.png 2750w, trevorcarr-dot-info-studioatlas2.png 3000w" /></p>
+
+<p><img src="trevorcarr-dot-info-studioatlas4.png" sizes="100vw" srcset="trevorcarr-dot-info-studioatlas4.png 500w, trevorcarr-dot-info-studioatlas4.png 750w, trevorcarr-dot-info-studioatlas4.png 1000w, trevorcarr-dot-info-studioatlas4.png 1250w, trevorcarr-dot-info-studioatlas4.png 1500w, trevorcarr-dot-info-studioatlas4.png 1750w, trevorcarr-dot-info-studioatlas4.png 2000w, trevorcarr-dot-info-studioatlas4.png 2250w, trevorcarr-dot-info-studioatlas4.png 2500w, trevorcarr-dot-info-studioatlas4.png 2750w, trevorcarr-dot-info-studioatlas4.png 3000w" /></p>
+
+<p><span class="link dim out"><a href="https://trevorcarr.info/deploy-studio-atlas/">Studio Atlas</a></span></p>
+
+</div>
+
       </div>
     </main>
 
@@ -223,6 +252,28 @@
 
   <script src="/assets/js/split.js"></script>
 
+  
+  <script>
+  var s;
+  var w = document.getElementById('html').getBoundingClientRect();
+
+  if(window.outerWidth < 700){
+    console.log('small');
+    s = [0,100];
+  } else if(window.outerWidth > 2100){
+    console.log('large');
+    s = [50,50];
+  } else {
+    console.log('med');
+    s = [30,70];
+  }
+
+  Split(['#r1', '#r2'], {
+    sizes: s,
+    gutterSize: 20,
+    minSize: 0
+  });
+  </script>
   
 
 </html>

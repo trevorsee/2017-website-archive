@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Trevor Carr</title>
+  <title>Testing</title>
   <meta name="description" content="Trevor Carr is a multidiciplinary designer and front-end developer based in Baltimore, MD.">
   <meta property="ix:host" content="default-value.imgix.net">
   <meta property="ix:useHttps" content="true">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/testing/">
 </head>
 
 
@@ -205,7 +205,28 @@
     <main id="r" class="t-0 l-0 r-0 fixed z-100 h-100 flex pe-none">
       <div id="r1" class="w-0 pe-none"></div>
       <div id="r2" class="h-100 scroll bg-white pt1 pr1 pb1 w-0 pe-initial">
-        
+        <div class="clearfix">
+  <a class="link dim right" href="/">close</a>
+  <h2 class="f3 ma0 left">Testing</h2>
+  
+</div>
+
+<div class="markdown">
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy<sup id="fnref:3"><a href="#fn:3" class="footnote">2</a></sup>. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p><em>testing</em> footnotes.&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>aaaa.&nbsp;<a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+
       </div>
     </main>
 
@@ -223,6 +244,28 @@
 
   <script src="/assets/js/split.js"></script>
 
+  
+  <script>
+  var s;
+  var w = document.getElementById('html').getBoundingClientRect();
+
+  if(window.outerWidth < 700){
+    console.log('small');
+    s = [0,100];
+  } else if(window.outerWidth > 2100){
+    console.log('large');
+    s = [50,50];
+  } else {
+    console.log('med');
+    s = [30,70];
+  }
+
+  Split(['#r1', '#r2'], {
+    sizes: s,
+    gutterSize: 20,
+    minSize: 0
+  });
+  </script>
   
 
 </html>
