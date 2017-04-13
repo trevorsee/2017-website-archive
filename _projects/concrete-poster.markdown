@@ -7,9 +7,11 @@ publish: true
 time: Fall 2015
 ---
 
-<img ix-path="trevorcarr-dot-info-concrete3.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-concrete2.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-concrete1.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-concrete3.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-concrete2.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-concrete1.jpg" %}
+{% include srcset-imgix.html %}
