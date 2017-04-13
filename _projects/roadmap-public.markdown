@@ -7,8 +7,8 @@ position: 2
 time: Summer 2016
 ---
 
-<img ix-path="trevorcarr-dot-info-roadmappublic1.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmappublic1.png" %}
+{% include srcset-imgix.html %}
 
 Design and development for a <span class="link dim out">[new public website](https://ppmroadmap.com)</span> for Roadmap.
 {: .measure-wide }
@@ -18,8 +18,8 @@ Design and development for a <span class="link dim out">[new public website](htt
 The main reason for updating the website was to move to a system that allowed non-technical employees to easily update copy and blog posts. We used this as an opportunity to make visual improvements across the board to the website, bridging the gap between Roadmap 1.0 and Roadmap 2.0.
 {: .measure-wide .pb1 }
 
-<img ix-path="trevorcarr-dot-info-roadmappublic2.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmappublic2.png" %}
+{% include srcset-imgix.html %}
 
 **Show the app**
 <br>
@@ -36,10 +36,10 @@ We decided to include a trial sign-up on the bottom of each page. At any point w
 We wanted to build the website quickly and efficiently, so we used <span class="link dim out">[Basscss](http://basscss.com/)</span> and <span class="link dim out">[Jekyll](https://jekyllrb.com/)</span>, using <span class="link dim out">[Siteleaf](https://www.siteleaf.com/)</span> as a CMS to allow easy editing.
 {: .measure-wide }
 
-<img ix-path="trevorcarr-dot-info-roadmappublic4.png"
-     sizes="100vw" />
- <img ix-path="trevorcarr-dot-info-roadmappublic3.png"
-      sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmappublic4.png" %}
+{% include srcset-imgix.html %}
 
+{% assign image = "trevorcarr-dot-info-roadmappublic3.png" %}
+{% include srcset-imgix.html %}
 
 <span class="link dim out">[https://ppmroadmap.com](https://ppmroadmap.com)</span>

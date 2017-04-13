@@ -7,8 +7,8 @@ publish: true
 time: Fall 2016
 ---
 
-<img ix-path="trevorcarr-dot-info-wwwwwwork3.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-wwwwwwork3.png" %}
+{% include srcset-imgix.html %}
 
 A declarative tool for generating ideas.
 {: .measure-wide }
@@ -22,9 +22,10 @@ We created a tool that could act as a container for holding bits, ideas, phrases
 — in collaboration with <span class="link dim out">[Default Value](http://defaultvalue.info/)</span>.
 {: .measure-wide .pb1 }
 
-<img ix-path="trevorcarr-dot-info-wwwwwwork1.png"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-wwwwwwork2.png"
-    sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-wwwwwwork1.png" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-wwwwwwork2.png" %}
+{% include srcset-imgix.html %}
 
 <span class="link dim out">[https://wwwwww.work](https://trevorcarr.info/wwwwwwork/)</span>

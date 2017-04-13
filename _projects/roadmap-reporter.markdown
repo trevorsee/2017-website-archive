@@ -7,8 +7,8 @@ position: 1
 time: Summer 2016
 ---
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter1.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter1.png" %}
+{% include srcset-imgix.html %}
 
 Product design for Reporter: an MVP for Roadmap 2.0.
 {: .measure-wide .mt0 }
@@ -19,10 +19,11 @@ Roadmap is an <span class="nobreak">enterprise-scale</span> project management t
 I joined the small team of four to help reimagine Roadmap from the ground up, from both a design and technology perspective. After interviewing different types of customers about their project workflow and about how they use Roadmap, we found what worked and didn’t work about the current release of Roadmap. It became clear that a simpler point of view, better user experience, and a more flexible and easily adoptable tool were essential to satisfy and expand the user base. Because all of these improvements required sweeping changes to Roadmap 1.0, we needed a strategy for slowly rolling out Roadmap 2.0. We developed Reporter as an MVP for Roadmap 2.0 in order to begin that transition.
 {: .measure-wide .mb5 }
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter2.png"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-roadmapreporter4.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter2.png" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-roadmapreporter4.png" %}
+{% include srcset-imgix.html %}
 
 **The goals of Reporter**
 {: .measure-wide .ma0 }
@@ -44,8 +45,8 @@ I joined the small team of four to help reimagine Roadmap from the ground up, fr
 - {: .list} Better Support for low-granularity data
 {: .measure-wide .mt0 .mb5 }
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter3.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter3.png" %}
+{% include srcset-imgix.html %}
 
 **Integrations**
 <br>
@@ -57,8 +58,8 @@ The primary value of Roadmap is collecting data from a variety of tools (Github,
 A Report is a structured comparison of hours, workdays, or dollars across projects, people, tasks, or roles. This allows a user to analyze past data, measure progress, and forecast the future, which enables faster, better decisions.
 {: .measure-wide .mb5 }
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter5.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter5.png" %}
+{% include srcset-imgix.html %}
 
 **Base Report**
 <br>
@@ -66,36 +67,38 @@ Base reports are the core unit of Reporter. Their goal is to provide clear and u
 .
 {: .measure-wide .mt0 .mb5 }
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter6.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter6.png" %}
+{% include srcset-imgix.html %}
 
 **Hiding information until asked**
 <br>
 I designed Reporter with the perspective that targeted information is better than complete information, as long as there is easy navigation to ask for contextually related data. A project expands to see the internal tasks, people, and roles. A row can be expanded to view its contributing factors.
 {: .measure-wide .mt0 .mb5 }
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter7.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter7.png" %}
+{% include srcset-imgix.html %}
 
 **Saved Reports & Filters**
 <br>
 A base report can be saved with a relative timeframe, optional filters, a custom name, and is collapsed into a small card. Rather than spending time organizing a large table view each time you open Roadmap for a particular task - Saved Reports allows a single setup that can be returned to.
 {: .measure-wide .mt0 .mb5 }
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter8.png"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-roadmapreporter9.png"
-    sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-roadmapreporter10.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter8.png" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-roadmapreporter9.png" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-roadmapreporter10.png" %}
+{% include srcset-imgix.html %}
 
 **Collections**
 <br>
 Saved Reports can be sorted into Collections and viewed with a targeted context, such as Weekly Meetings. Using collections gives some amount of context before clickthrough rather than wasting time browsing through data looking for what is relevant.
 {: .measure-wide .mt0 .mb5 }
 
-<img ix-path="trevorcarr-dot-info-roadmapreporter11.png"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-roadmapreporter11.png" %}
+{% include srcset-imgix.html %}
 
 **Dashboard**
 <br>

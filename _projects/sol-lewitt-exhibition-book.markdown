@@ -7,8 +7,8 @@ publish: true
 time: Fall 2015
 ---
 
-<img ix-path="trevorcarr-dot-info-lewitt2.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-lewitt2.jpg" %}
+{% include srcset-imgix.html %}
 
 Printed book as an exhibition of Sol LeWitt’s work.
 {: .measure-wide }
@@ -23,10 +23,12 @@ The left half of the book includes essays on LeWitt and his work, writing by LeW
 {: .measure-wide .pb1 }
 
 ![](/uploads/trevorcarr-dot-info-lewitt1.gif)
-<img ix-path="trevorcarr-dot-info-lewitt3.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-lewitt4.jpg"
-    sizes="100vw" />
+
+{% assign image = "trevorcarr-dot-info-lewitt3.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-lewitt4.jpg" %}
+{% include srcset-imgix.html %}
 
 A book is a prime example of a serial narrative structure because you are turning the pages, but you can go to any page at any time. — Sol LeWitt
 {: .measure-wide .pb1 }

@@ -7,8 +7,8 @@ publish: true
 time: Fall 2016
 ---
 
-<img ix-path="trevorcarr-dot-info-workingtitle1.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-workingtitle1.jpg" %}
+{% include srcset-imgix.html %}
 
 Organization and branding for MICA Design League's fall exhibition.
 {: .measure-wide }
@@ -22,18 +22,23 @@ We were interested in curating work that is multi-faceted, multi-disciplinary, p
 — in collaboration with <span class="link dim out">[Jen Evans](https://jenevans.work//)</span> and <span class="link dim out">[MICA Design League](https://www.instagram.com/mica_designleague)</span>.
 {: .measure-wide .pb1 }
 
-<img ix-path="trevorcarr-dot-info-workingtitle2.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-workingtitle3.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-workingtitle4.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-workingtitle5.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-workingtitle6.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-workingtitle7.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-workingtitle2.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-workingtitle3.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-workingtitle4.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-workingtitle5.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-workingtitle6.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-workingtitle7.jpg" %}
+{% include srcset-imgix.html %}
 
 Thanks to:
 - {: .list} McKenzie Schroeder

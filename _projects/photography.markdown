@@ -7,19 +7,26 @@ publish: true
 time: Ongoing
 ---
 
-<img ix-path="trevorcarr-dot-info-photo1.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-photo2.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-photo3.jpg"
-    sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-photo4.jpg"
-    sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-photo5.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-photo6.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-photo7.jpg"
-    sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-photo8.jpg"
-    sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-photo1.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-photo2.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-photo3.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-photo4.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-photo5.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-photo6.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-photo7.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-photo8.jpg" %}
+{% include srcset-imgix.html %}

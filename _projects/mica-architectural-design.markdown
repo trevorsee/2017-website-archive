@@ -7,8 +7,8 @@ publish: true
 time: Fall 2016
 ---
 
-<img ix-path="trevorcarr-dot-info-micaad2.jpg"
-     sizes="100vw" />
+{% assign image = "trevorcarr-dot-info-micaad2.jpg" %}
+{% include srcset-imgix.html %}
 
 Publication for MICA’s Architectural Design department.
 {: .measure-wide }
@@ -20,7 +20,9 @@ I designed the book to accommodate changes in the department from year to year, 
 {: .measure-wide .pb1 }
 
 ![](/uploads/trevorcarr-dot-info-micaad1.gif)
-<img ix-path="trevorcarr-dot-info-micaad3.jpg"
-     sizes="100vw" />
-<img ix-path="trevorcarr-dot-info-micaad4.jpg"
-     sizes="100vw" />
+
+{% assign image = "trevorcarr-dot-info-micaad3.jpg" %}
+{% include srcset-imgix.html %}
+
+{% assign image = "trevorcarr-dot-info-micaad4.jpg" %}
+{% include srcset-imgix.html %}
