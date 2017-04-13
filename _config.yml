@@ -36,6 +36,9 @@ exclude:
 - package.json
 - README.md
 - CNAME
+- vendor
+- Gemfile
+- .travis.yml
 - node_modules
 links:
 - url: "/colophon"
