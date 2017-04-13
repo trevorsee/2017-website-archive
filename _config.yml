@@ -32,7 +32,6 @@ sass:
   sass_dir: assets/sass
   style: compressed
 exclude:
-- Gemfile
 - Gemfile.lock
 - package.json
 - README.md
