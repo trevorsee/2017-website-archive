@@ -38,7 +38,7 @@ exclude:
 - CNAME
 - vendor
 - Gemfile
-- .travis.yml
+- ".travis.yml"
 - node_modules
 links:
 - url: "/colophon"
